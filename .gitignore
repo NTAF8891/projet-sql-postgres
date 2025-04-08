@@ -1,0 +1,22 @@
+# Environnement virtuel
+env/
+venv/
+
+# Fichiers Django à ignorer
+*.pyc
+__pycache__/
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# Config environnement
+.env
+
+# Migrations (facultatif si tu veux tout recréer)
+*/migrations/__pycache__/
+*.log
+
+# fichiers système
+.DS_Store
+Thumbs.db
