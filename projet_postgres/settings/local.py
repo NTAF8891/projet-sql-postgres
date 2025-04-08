@@ -1,7 +1,6 @@
 from .base import *
 from .base import config
 
-DEBUG = True
 ALLOWED_HOSTS = []
 
 DATABASES = {
@@ -14,3 +13,5 @@ DATABASES = {
         'PORT': config("DB_PORT"),
     }
 }
+
+DEBUG = config('DEBUG')

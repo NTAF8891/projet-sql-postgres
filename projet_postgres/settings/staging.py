@@ -1,6 +1,5 @@
 from .base import *
 
-DEBUG = True
 ALLOWED_HOSTS = []
 
 DATABASES = {
@@ -9,3 +8,5 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+DEBUG = config('DEBUG')
