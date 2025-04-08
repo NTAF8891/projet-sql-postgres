@@ -12,6 +12,7 @@ db.sqlite3
 
 # Config environnement
 .env
+.local.env 
 
 # Migrations (facultatif si tu veux tout recréer)
 */migrations/__pycache__/
